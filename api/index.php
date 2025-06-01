@@ -172,11 +172,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         echo $HE[0];
                         ?>
                     </p>
-                    <img class="img-1200 mb-20" src="/img/HE_1.webp" alt="HOTEL_ESCUELA_img">
+                    <img class="img-1200 mb-20" src="https://github.com/diazYohary/resume/blob/afd7b036d382592b4d407081fcfefc5b75b82806/img/HE_1.webp" alt="HOTEL_ESCUELA_img">
                     <p class="mb-40"><?php echo $HE[1]; ?></p>
                 </div>
                 <div id="HE-IG" class="flex jc-sb mb-20 q1-column ai-c">
-                    <img class="img-360" src="/img/HE_6.webp" alt="HOTEL_ESCUELA_img">
+                    <img class="img-360" src="
+                    <?php ?>
+                    /img/HE_6.webp" alt="HOTEL_ESCUELA_img">
                     <img class="img-360" src="/img/HE_4.webp" alt="HOTEL_ESCUELA_img">
                     <img class="img-360" src="/img/HE_5.webp" alt="HOTEL_ESCUELA_img">
                 </div>
