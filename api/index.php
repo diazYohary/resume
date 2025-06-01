@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '../config.php';
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
@@ -153,7 +153,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     ?>
                 </p>
                 <div class="flex column ai-c">
-                    <img class="img-1200" src="img/SUNTUAP.webp" alt="SUNTUAP_img">
+                    <img class="img-1200" src="../img/SUNTUAP.webp" alt="SUNTUAP_img">
                 </div>
             </article>
             <hr>
@@ -163,20 +163,20 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     echo $porfolio[2];
                     ?></p>
                 <div class="flex column ai-c">
-                    <img class="img-1200 mb-20" src="img/HE_3.webp" alt="HOTEL_ESCUELA_IMG">
+                    <img class="img-1200 mb-20" src="../img/HE_3.webp" alt="HOTEL_ESCUELA_IMG">
                     <p class="mb-40">
                         <?php
                         $HE=__('HE');
                         echo $HE[0];
                         ?>
                     </p>
-                    <img class="img-1200 mb-20" src="img/HE_1.webp" alt="HOTEL_ESCUELA_img">
+                    <img class="img-1200 mb-20" src="../img/HE_1.webp" alt="HOTEL_ESCUELA_img">
                     <p class="mb-40"><?php echo $HE[1]; ?></p>
                 </div>
                 <div id="HE-IG" class="flex jc-sb mb-20 q1-column ai-c">
-                    <img class="img-360" src="img/HE_6.webp" alt="HOTEL_ESCUELA_img">
-                    <img class="img-360" src="img/HE_4.webp" alt="HOTEL_ESCUELA_img">
-                    <img class="img-360" src="img/HE_5.webp" alt="HOTEL_ESCUELA_img">
+                    <img class="img-360" src="../img/HE_6.webp" alt="HOTEL_ESCUELA_img">
+                    <img class="img-360" src="../img/HE_4.webp" alt="HOTEL_ESCUELA_img">
+                    <img class="img-360" src="../img/HE_5.webp" alt="HOTEL_ESCUELA_img">
                 </div>
                 <p class=" txt-c"><?php echo $HE[2]; ?></p>
             </article>
