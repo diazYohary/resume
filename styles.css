@@ -1,0 +1,90 @@
+body{
+    background-color: #ebf5ed;
+    font-family: Helvetica, sans-serif;
+    font-size: 170%;
+}
+
+.centerDiv{
+    display: flex;
+    align-items: center;
+}
+.columnDiv{
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.spaceRow{
+    justify-content: space-between;
+}
+.welcomeDiv{
+    padding-top: 2%;
+}
+
+.marginText{
+    margin: 0%;
+}
+.bodyDiv{
+    padding: 0% 10%;
+}
+
+/*TEXTOS*/
+    .bodyText{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 80%;
+        text-align: justify;
+    }
+    .titleContainer{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 120%;
+        text-align: justify;
+        text-decoration: underline;
+        margin: 10px 0;
+    }
+    .titleContainer:hover{
+        color: blue;
+    }
+    .centerText{
+        text-align: center;
+    }
+    .rightText{
+        text-align: right;
+    }
+    .leftText{
+        text-align: left;
+    }
+
+/*LINEAS*/
+    .vr{
+        border-top: 2px solid black;
+        width: 80%;
+    }
+    .vl{
+        border-left: 2px solid black;
+        height: 180px;
+    }
+
+/*COLLAPSE*/
+    .containerCollapse{
+        cursor: pointer;
+    }
+    .contentCollapse{
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.3s ease;
+    }
+    .titleCollapse{
+        display: flex;
+    }
+    .containerCollapse.active .contentCollapse{
+        max-height: 4000px;
+    }
+
+/*IMAGENES*/
+    .imgMedium{
+        width: 30%;
+    }
+    .imgLarge{
+        width: 100%;
+    }
+    
