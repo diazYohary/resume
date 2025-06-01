@@ -1,5 +1,7 @@
 <?php
-require_once '../config.php';
+define('APP_ROOT', __DIR__ . '/..');
+
+require_once (APP_ROOT.'/config.php');
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
