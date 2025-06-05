@@ -28,7 +28,7 @@ return[
         'https://www.buap.mx/',
         'Benemérita Universidad Autónoma de Puebla',
         'Spring 2021 - Present (9th Semester',
-        'GPA: 4.0'
+        'GPA: 3.72'
     ],
     'wrk-xp'=>[
         'https://dfsoft.mx/',

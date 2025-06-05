@@ -14,22 +14,22 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Primary Meta Tags -->
-<title><?php echo __('title');?></title>
-<meta name="title" content="<?php echo __('title');?>">
-<meta name="description" content="Estudiante de Ingeniería en TI con promedio de 9.38. Especializado en Laravel, PHP y desarrollo front-end. Con experiencia en DFSOFT">
-<meta name="keywords" content="desarrollador web, front-end developer, Laravel, PHP, JavaScript, CV informático, practicante TI Puebla, BUAP ingeniería, programador full stack">
+    <title><?php echo __('title');?></title>
+    <meta name="title" content="<?php echo __('title');?>">
+    <meta name="description" content="Estudiante de Ingeniería en TI con promedio de 9.38. Especializado en Laravel, PHP y desarrollo front-end. Con experiencia en DFSOFT">
+    <meta name="keywords" content="desarrollador web, front-end developer, Laravel, PHP, JavaScript, CV informático, practicante TI Puebla, BUAP ingeniería, programador full stack">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://diazyohary.github.io/CV/">
-<meta property="og:title" content="Yohary Díaz Jiménez | Portafolio Profesional">
-<meta property="og:description" content="Portafolio de un desarrollador web en formación con experiencia comprobada en proyectos reales. Conoce mis habilidades técnicas y proyectos académicos.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://resume-yohary-diaz-lctzmvupp-yoharys-projects.vercel.app/">
+    <meta property="og:title" content="Yohary Díaz Jiménez | Portafolio Profesional">
+    <meta property="og:description" content="Portafolio de un desarrollador web en formación con experiencia comprobada en proyectos reales. Conoce mis habilidades técnicas y proyectos académicos.">
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://diazyohary.github.io/CV/">
-<meta property="twitter:title" content="Yohary Díaz Jiménez | Estudiante destacado de Ingeniería en TI">
-<meta property="twitter:description" content="9.38 de promedio | Experiencia en DFSOFT | Futuro desarrollador Full Stack">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://resume-yohary-diaz-lctzmvupp-yoharys-projects.vercel.app/">
+    <meta property="twitter:title" content="Yohary Díaz Jiménez | Estudiante destacado de Ingeniería en TI">
+    <meta property="twitter:description" content="9.38 de promedio | Experiencia en DFSOFT | Futuro desarrollador Full Stack">
     <style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;box-sizing:border-box;margin:0;padding:0;vertical-align:baseline}html,body{font-family:Times New Roman,Times,serifq;font-size:22px;margin:0;padding:0;min-height:100vh;min-width:100%;width:100%;scrollbar-width:thin;background-color:#f5f5f5}main,header,footer{width:1226px}.flex{display:flex}.column{flex-direction:column}.jc-sb{justify-content:space-between}.ai-c{align-items:center}.pt-30{padding-top:30px}.pt-40{padding-top:40px}.pt-60{padding-top:60px}.pt-80{padding-top:80px}.pl-150{padding-left:150px}.pr-150{padding-right:150px}.pb-30{padding-bottom:30px}.pb-80{padding-bottom:80px}.mb-10{margin-bottom:10px}.mb-20{margin-bottom:20px}.mb-40{margin-bottom:40px}.mb-60{margin-bottom:60px}.txt-c{text-align:center}.txt-l{text-align:left}.txt-r{text-align:right}.txt-j{text-align:justify}.lh-2{line-height:2.5}.fs-18{font-size:18px}.fs-26{font-size:26px}.fs-40{font-size:40px}.fw-5{font-weight:500}.fw-6{font-weight:600}.vl{border-left:2px solid black;height:auto}h1,h2,h3,h4{font-family:Arial,Helvetica,sans-serif}a{display:inline-block;color:#002db4}a:hover{color:#265cff}.img-1200{width:1200px;height:auto}.img-360{width:360px;height:auto}@media screen and (max-width: 1400px){.img-1200,main,header,footer{width:800px}.q1-column{flex-direction:column}#HE-IG :nth-child(1),#HE-IG :nth-child(2){margin-bottom:40px}}@media screen and (max-width: 950px){.img-1200,main,header,footer{width:600px}.q2-column{flex-direction:column}#header>a:not(:last-child){margin-bottom:20px}.q2-mb-20{margin-bottom:20px}.q2-ai-c{align-items:center}.q2-txt-c{text-align:center}.q2-dn{display:none}}@media screen and (max-width: 710px){.img-1200,main,header,footer{width:400px}body{font-size:18px}.fs-40{font-size:28px}.fs-26{font-size:20px}}@media screen and (max-width: 500px){.img-1200,.img-360,main,header,footer{width:300px}.q3-txt-c{text-align:center}}@media screen and (max-width: 376px){.img-1200,.img-360,main,header,footer{width:270px}}@media screen and (max-width: 311px){.img-1200,.img-360,main,header,footer{width:240px}}
 </style>
 </head>
